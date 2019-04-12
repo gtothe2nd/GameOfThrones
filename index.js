@@ -238,7 +238,7 @@ app.get("/api/name/:name", function(req, res) {
 	_name = capitalizeName(_name)
     let result = _.findWhere(_DATA, { name: _name })
     if (!result){
-		return res.json({});
+		res.json({});
 	} else {
 		res.json(result);
 	}	
