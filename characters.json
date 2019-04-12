@@ -37,6 +37,19 @@
             "playedBy": "Jack Gleeson"
         },
         {
+            "name": "Khal Moro",
+            "description": "Dothraki Khal of another tribe, wanted to bed Daenerys Targaryen",
+            "house": "None",
+            "claim": false,
+            "season": 6,
+            "episodes": [
+                "The Red Woman",
+                "Oathbreaker",
+                "Book of the Stranger"
+            ],
+            "playedBy": "Joseph Naufahu"
+        },
+        {
             "name": "Lyanna Mormont",
             "description": "Lady Lyanna Mormont is the young Lady of Bear Island and thus the head of House Mormont of Bear Island ever since the death of her mother, Maege Mormont. She is the niece of Lord Commander Jeor Mormont of the Night's Watch and the first cousin of Ser Jorah Mormont. She pledges House Mormont's forces to House Stark upon meeting Jon Snow, Sansa Stark, and Davos Seaworth, making her house one of the few loyalists to fight for the Starks against House Bolton at the Battle of the Bastards. Afterwards, she is the first to declare Jon Snow the King in the North during a gathering of the Northern lords at Winterfell.",
             "house": "Mormont",
@@ -82,17 +95,26 @@
             "playedBy": "Elizabeth Webster"
         },
         {
-            "name": "Khal Moro",
-            "description": "Dothraki Khal of another tribe, wanted to bed Daenerys Targaryen",
-            "house": "None",
+            "name": "Hi",
+            "description": "akldjf",
+            "house": "hiadf",
+            "claim": false,
+            "season": 3,
+            "episodes": [
+                "alk;dsjf"
+            ],
+            "playedBy": "haid"
+        },
+        {
+            "name": "Asdf",
+            "description": "asdf",
+            "house": "daf",
             "claim": false,
             "season": 6,
             "episodes": [
-                "The Red Woman",
-                "Oathbreaker",
-                "Book of the Stranger"
+                "adsf"
             ],
-            "playedBy": "Joseph Naufahu"
+            "playedBy": "adsf"
         }
     ]
 }

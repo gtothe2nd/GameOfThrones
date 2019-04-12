@@ -105,9 +105,6 @@ request(options, function (error, response, body) {
   console.log(body);
 });
 ```
-
-HTML Form route: `/name/:name`
-
 JSON output would be 
 {
     "name": "Khal Moro",
@@ -122,6 +119,8 @@ JSON output would be
     ],
     "playedBy": "Joseph Naufahu"
 }
+
+HTML Form route: `/name/:name`
 
 ### 5. Edit Data
 POST endpoint route: `/api/edit`

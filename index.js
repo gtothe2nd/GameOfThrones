@@ -52,8 +52,8 @@ app.get("/name/:name", function(req, res){
 	let ret
 	if (!result){
 		ret = {
-			error: false,
-			output: "The character has not been added to the data"
+			error: true,
+			output: "The character has is not withinthe data"
 		}
 	} else {
 		ret = {
@@ -65,7 +65,9 @@ app.get("/name/:name", function(req, res){
 			playedBy: result.playedBy,
 			episodes: result.episodes,
 			season: result.season
-		}		
+		}
+		console.log("ret here")
+		console.log(ret)		
 	}
 	res.render("character", ret)
 })
@@ -188,6 +190,7 @@ app.get("/addCharacter", function(req, res){
 app.post("/api/addCharacter", function(req, res){
 	// getting feilds sent in 
 	let _name = req.body.name
+	_name = capitalizeName(_name)
 	let _description = req.body.description
 	let _house = req.body.house
 	let _claim = req.body.claim  == "true" ? true: false
@@ -219,7 +222,7 @@ app.post("/api/addCharacter", function(req, res){
 		}
 		console.log(_DATA)
 		fs.writeFileSync("characters.json", (JSON.stringify(ret, null, 4)))
-		res.send(_name + " has been added")
+		res.send(_name + " has been added\nGo to https://cmsc389k-game-of-thrones.herokuapp.com//name/"+_name + " to view your new character")
 	} else {
 		res.send("The season is invalid, the character was not added. Enter a season from 1-7")
 	}
