@@ -1,0 +1,63 @@
+<div class="search-div">
+    <b>Search for a Character Here</b>
+    <br>
+    <input type="text" id="search-bar">
+</div>
+
+<ul id="char_list">
+    {{#each characters}}
+         <li id="{{this.name}}" class="home-name"><a href="/name/{{this.name}}">{{this.name}}</a></li>
+    {{/each}}
+</ul>
+<script>
+    function searchEvent(){
+
+        let items = charList.getElementsByTagName("li")
+        let searchValue = document.getElementById("search-bar").value
+
+        // empty search bar is all results 
+        if(searchValue != ""){
+            // search through all elements
+            for (let elem = 0; elem < items.length; elem++) {
+                
+                // search is larger than the current name, must be wrong
+                if(searchValue.length > items[elem].id.length){
+                    hide(items[elem])
+                // search is at most same size as potential names
+                // checks search exactly equals a name
+                } else if (searchValue.toUpperCase() == items[elem].id.toUpperCase()){
+                    show(items[elem])
+                
+                // checks if search value currently matches the beginning of a name
+                } else if(searchValue.toUpperCase() == items[elem].id.substring(0, searchValue.length).toUpperCase()){
+                    show(items[elem])
+                
+                // hide all other names if search bar isn't empty
+                } else {
+                    hide(items[elem])
+                } 
+            }
+        } else {
+            showAll()
+        }
+    }
+    
+    function hide(element){
+        element.style.display = "none"
+    }
+
+    function show(element){
+        element.style.display = "list-item"
+    }
+
+    function showAll(){
+         let items = charList.getElementsByTagName("li")
+          for (let elem = 0; elem < items.length; elem++) {
+              show(items[elem])
+          }
+    }
+
+    let search = document.getElementById("search-bar")
+    let charList = document.getElementById("char_list")
+    search.addEventListener("keyup", searchEvent)
+</script>

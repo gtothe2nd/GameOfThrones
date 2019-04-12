@@ -1,0 +1,98 @@
+{
+    "characters": [
+        {
+            "name": "Joffrey Baratheon",
+            "description": "King Joffrey I Baratheon was the eighteenth king to rule from the Iron Throne. Though believed by most to be the eldest son of King Robert Baratheon and Queen Cersei Lannister, Joffrey is actually a bastard born from Cersei's incestuous relationship with her twin brother, Ser Jaime Lannister of the Kingsguard. He is the older brother of Myrcella and Tommen Baratheon, both of whom share the same parentage. Joffrey's actions during his rule sparked the War of the Five Kings and ended when he was poisoned at his own wedding feast by Olenna Tyrell and Petyr Baelish.",
+            "house": "Baratheon",
+            "claim": true,
+            "season": 3,
+            "episodes": [
+                "Winter is Coming",
+                "The Kingsroad",
+                "Lord Snow",
+                "Cripples, Bastards, and Broken Things",
+                "The Wolf and the Lion",
+                "A Golden Crown",
+                "You Win or You Die",
+                "The Pointy End",
+                "Baelor",
+                "Fire and Blood",
+                "The North Remembers",
+                "Garden of Bones",
+                "The Old Gods and the New",
+                "The Prince of Winterfell",
+                "Blackwater",
+                "Valar Morghulis",
+                "Valar Dohaeris",
+                "Dark Wings, Dark Words",
+                "And Now His Watch is Ended",
+                "The Climb",
+                "The Bear and Maiden Fair",
+                "Second Sons",
+                "Mhysa",
+                "Two Swords",
+                "The Lion and the Rose",
+                "Breaker of Chains"
+            ],
+            "playedBy": "Jack Gleeson"
+        },
+        {
+            "name": "Lyanna Mormont",
+            "description": "Lady Lyanna Mormont is the young Lady of Bear Island and thus the head of House Mormont of Bear Island ever since the death of her mother, Maege Mormont. She is the niece of Lord Commander Jeor Mormont of the Night's Watch and the first cousin of Ser Jorah Mormont. She pledges House Mormont's forces to House Stark upon meeting Jon Snow, Sansa Stark, and Davos Seaworth, making her house one of the few loyalists to fight for the Starks against House Bolton at the Battle of the Bastards. Afterwards, she is the first to declare Jon Snow the King in the North during a gathering of the Northern lords at Winterfell.",
+            "house": "Mormont",
+            "claim": false,
+            "season": 7,
+            "episodes": [
+                "Stormborn",
+                "Dragonstone",
+                "Winds of Winter",
+                "Battle of the Bastards",
+                "The Broken Man"
+            ],
+            "playedBy": "Bella Ramsey"
+        },
+        {
+            "name": "Viserys Targaryen",
+            "description": "King Viserys Targaryen was the younger brother of the late Rhaegar Targaryen and the older brother of Daenerys Targaryen. Viserys and Daenerys are the remnants of the exiled House Targaryen following Robert's Rebellion against their father Aerys II Targaryen, the Mad King. He claimed the Iron Throne as King Viserys III after his father was overthrown and killed in Robert's Rebellion but never sat on the Iron Throne before being killed by Khal Drogo.",
+            "house": "Targaryen",
+            "claim": true,
+            "season": 1,
+            "episodes": [
+                "A Golden Crown",
+                "Cripples, Bastards, and Broken Things",
+                "Lord Snow",
+                "The Kingsroad",
+                "Winter is Coming"
+            ],
+            "playedBy": "Harry Lloyd"
+        },
+        {
+            "name": "Walda Bolton",
+            "description": "Walda is a member of House Frey and a granddaughter of Lord Walder Frey and  the new wife of Roose Bolton, the Lord of the Dreadfort.",
+            "house": "Frey",
+            "claim": "false",
+            "season": "6",
+            "episodes": [
+                "The Lion and the Rose",
+                "High Sparrow",
+                "Kill the Boy",
+                "Unbowed, Unbent, Unbroken",
+                "Home"
+            ],
+            "playedBy": "Elizabeth Webster"
+        },
+        {
+            "name": "Khal Moro",
+            "description": "Dothraki Khal of another tribe, wanted to bed Daenerys Targaryen",
+            "house": "None",
+            "claim": false,
+            "season": 6,
+            "episodes": [
+                "The Red Woman",
+                "Oathbreaker",
+                "Book of the Stranger"
+            ],
+            "playedBy": "Joseph Naufahu"
+        }
+    ]
+}

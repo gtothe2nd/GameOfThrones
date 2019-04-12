@@ -1,0 +1,44 @@
+/* Please add your own! */
+fieldset{
+    border-radius: 15px
+}
+
+
+.search-div{
+    text-align: center;
+}
+
+.home-name{
+    margin-top: 5%;
+}
+
+.hide{
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.left_padding{
+    padding-left: 15%;
+}
+
+
+.character_info{
+    width: 200px;
+    margin: 5px 20px 5px 0px;
+}
+
+.add_character_form{
+    margin-top: 5%;
+}
+
+.info{
+    font-style: italic
+}
+
+.episode-box{
+    width: 50%;
+    height: 25%;
+}

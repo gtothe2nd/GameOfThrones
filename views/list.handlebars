@@ -1,0 +1,20 @@
+<span>
+    <br> <br>
+    <div class="center">
+        <b>{{title}}</b>
+    </div>
+    <div>
+        {{#if error}}
+            {{#each chars}}
+                <br>{{this}}
+            {{/each}}
+        {{else}}
+            <ul>
+                {{#each chars}}
+                    <li><a href="/name/{{this.name}}">{{this.name}}</a></li>     
+                {{/each}}
+            </ul>
+            </div>
+        {{/if}}
+    </div>
+</span>

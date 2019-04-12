@@ -1,0 +1,57 @@
+<table>
+    <tr>
+        <td>
+            Name:
+        </td>
+        <td class="left_padding">
+            {{name}}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Played By:
+        </td>
+        <td class="left_padding">
+            {{playedBy}}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Description:
+        </td>
+        <td class="left_padding">
+            {{description}}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Claim to the Iron Throne:
+        </td>
+        <td class="left_padding"> 
+            {{claim}}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Episode Appearances:
+        </td>
+        <td class="left_padding">
+            In chronological order
+            <ol>
+            {{#each episodes}}
+                <li>
+                    {{this}}
+                </li>
+            {{/each}}
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Last Season Appearance:
+        </td>
+        <td class="left_padding">
+            {{season}}
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,30 @@
+<p>Enter the character's information in the form below</p>
+<form id="form" class="add_character_form" action="/api/addCharacter" method="POST">
+            <fieldset id="general">
+                <legend class="info">Character Information</legend>
+                Character Name:
+                <input id="first" name="name" class="character_info" type="text" required>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Played By:
+                <input id="playedBy" name="playedBy" class="character_info" type="text" placeholder="Name of the actor/actress" required>
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; House:
+                <input id="house" name="house" class="character_info" type="text" placeholder="Enter the name of house or put None">
+                Claim For the Iron Throne:
+                <input id="claim" name="claim" class="character_info" type="text" placeholder="Enter true or false">
+                <br>
+                Description:
+                <textarea name="description" id="description" cols="50" rows="5" placeholder="Enter a description of the character"></textarea>
+            </fieldset>
+            
+            <fieldset id="episode_info">
+                <legend class="info">Episode Information</legend>
+                    Last Season: <input id="season" name="season" class="character_info" type="text" placeholder="Enter last season the character was in" required>
+                    <br>
+                    Episode List: <textarea class="episode-box character_info" id="episode_list" name="episodes" class="character_info" placeholder="Enter the chronilogical order of the episodes title that the character was in. Enter a | character to seperate episode titles."></textarea>
+                </fieldset>
+                <!-- clear and submision -->
+                <fieldset>
+                    <input type="reset" id="reset_button" name="reset" value="Clear Form">
+                    <input type="submit" id="submit" name="submit" value="Submit Information">
+                </fieldset>
+            </form>

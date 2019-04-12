@@ -1,0 +1,26 @@
+<div class="center"><p name="p" id={{type}}>{{title}}</p></div>
+
+<form id="form" method="GET" action="">
+    <div class="center">
+        <input id="value" type="text">
+    </div>
+    <div class="center">
+        <input type="submit" id="button" value="Search"/>
+    </div>
+</form>
+<script>
+    window.onsubmit = true
+    let button = document.getElementById("button")
+    button.addEventListener("click", clickEvent)
+
+    // redirects to different page as index.js cannot be referenced directly from here
+    function clickEvent(){
+        let type = document.getElementsByName("p")[0].id
+        let value = document.getElementById("value").value
+        
+        let first = "localhost:3000"
+        let url = "/results/" + type + "/" + value
+
+        document.getElementById("form").action = url        
+    }
+</script>
