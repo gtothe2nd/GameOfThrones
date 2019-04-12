@@ -93,28 +93,6 @@
                 "Home"
             ],
             "playedBy": "Elizabeth Webster"
-        },
-        {
-            "name": "Hi",
-            "description": "akldjf",
-            "house": "hiadf",
-            "claim": false,
-            "season": 3,
-            "episodes": [
-                "alk;dsjf"
-            ],
-            "playedBy": "haid"
-        },
-        {
-            "name": "Asdf",
-            "description": "asdf",
-            "house": "daf",
-            "claim": false,
-            "season": 6,
-            "episodes": [
-                "adsf"
-            ],
-            "playedBy": "adsf"
         }
     ]
 }
