@@ -52,7 +52,7 @@ var request = require("request");
 
 var options = { 
     method: 'POST',
-    url: 'http://localhost:3000/api/addCharacter',
+    url: 'https://cmsc389k-game-of-thrones.herokuapp.com//api/addCharacter',
     headers: { 
         'content-type': 'application/x-www-form-urlencoded' 
     },
@@ -90,7 +90,7 @@ var request = require("request");
 
 var options = { 
     method: 'GET',
-    url: 'http://localhost:3000/api/name/Khal Moro',
+    url: 'https://cmsc389k-game-of-thrones.herokuapp.com/api/name/Khal Moro',
     headers: { 
         'content-type': 'application/x-www-form-urlencoded' 
     },
@@ -130,7 +130,7 @@ var request = require("request");
 
 var options = { 
     method: 'POST',
-    url: 'http://localhost:3000/edit',
+    url: 'https://cmsc389k-game-of-thrones.herokuapp.com/api/edit',
     headers: { 
         'content-type': 'application/x-www-form-urlencoded' 
     },
@@ -166,7 +166,7 @@ var request = require("request");
 
 var options = { 
     method: 'DELETE',
-    url: 'http://localhost:3000/api/remove',
+    url: 'https://cmsc389k-game-of-thrones.herokuapp.com/api/remove',
     headers: { 
         'content-type': 'application/x-www-form-urlencoded' 
     },
